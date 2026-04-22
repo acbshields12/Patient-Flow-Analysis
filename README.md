@@ -4,6 +4,12 @@
 
 ---
 
+## Dashboard Preview
+
+![](assets/dash.jpg)
+
+---
+
 ## 📋 Table of Contents
 
 - [Project Overview](#project-overview)
@@ -252,11 +258,11 @@ Import `Cleaned Data` sheet (export as CSV first) using MySQL Workbench's Table 
 
 ## Author
 
-**Clark**
-Data Analyst | SQL · Power BI · Excel · Python
+Adriane Clark Ballesteros  
+Healthcare Data Analyst Trainee
 
-[GitHub](#) · [LinkedIn](#) · [Portfolio](#)
+* 🔗 GitHub: https://github.com/acbshields12
 
 ---
 
-*Project built as part of a healthcare analytics portfolio. Dataset is synthetic and intended for educational use.*
+*Project built as part of a healthcare analytics portfolio. Dataset is sourced from Kaggle.com.*
