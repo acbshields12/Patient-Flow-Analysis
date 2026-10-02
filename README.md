@@ -6,7 +6,7 @@
 
 ## Dashboard Preview
 
-![](assets/dash.jpg)
+![](insights/dash.jpg)
 
 ---
 
@@ -87,10 +87,11 @@ This project analyzes **9,216 patient visits** at a hospital across **April 2023
 healthcare-patient-flow/
 │
 ├── data/
-│   └── healthcare_analytics_patient_flow_data1.csv    # Raw data
+│   └── healthcare_analytics_patient_flow_raw.csv        # Raw data
+│   └── healthcare_analytics_patient_flow_cleaned.csv    # cleaned data
 │
 ├── excel/
-│   └── Healthcare_Patient_Flow_Cleaned.xlsx           # Cleaned workbook
+│   └── Healthcare_Patient_Flow_Cleaned.xlsx             # Cleaned workbook
 │       ├── Cleaned Data          (main cleaned table)
 │       ├── Data Issues Log       (cleaning decisions documented)
 │       ├── Summary Statistics    (key KPIs)
@@ -98,20 +99,24 @@ healthcare-patient-flow/
 │       ├── Pivot - Demographics
 │       └── Pivot - Monthly Trend
 │
+├── insights/
+│   └── dash.jpg                                         # dashboard screenshot
+│
+├── powerbi/
+│   └── dash.pbix                                        # Power BI dashboard
+│
 ├── sql/
-│   └── healthcare_mysql_queries.sql                   # All SQL queries
+│   └── mysql_queries.sql                                 # All SQL queries
 │       ├── Section A: Overview & Volume
 │       ├── Section B: Wait Time Analysis
 │       ├── Section C: Patient Satisfaction
 │       ├── Section D: Demographic Analysis
 │       ├── Section E: Advanced Window Functions
 │       └── Section F: Views for Power BI
-│
-├── powerbi/
-│   └── Healthcare_Patient_Flow.pbix                   # Power BI dashboard
+
 │
 ├── report/
-│   └── Healthcare_Analytics_Project_Report.md         # Full project report
+│   └── Healthcare_Analytics_Project_Report.pdf        # Full project report
 │
 └── README.md
 ```
